@@ -1,0 +1,6 @@
+/target
+venv
+.env
+*.rs
+cargo*
+*.md
