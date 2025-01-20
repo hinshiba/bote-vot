@@ -119,4 +119,6 @@ async def endon(interaction: discord.Interaction):
     # await vote_hook.edit(content=f"{YES}: {yes_count}\n{NO}: {no_count}", view=None)
     await vote_hook.delete()
 
+from server import server_thread
+server_thread()
 client.run(os.environ.get("DISCORD_TOKEN"))
